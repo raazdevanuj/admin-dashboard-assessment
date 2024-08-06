@@ -1,0 +1,10 @@
+.active-header{
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .weekly-label {
+    color: gray;
+    font-size: 1rem;
+    margin-top: -20px;
+  }

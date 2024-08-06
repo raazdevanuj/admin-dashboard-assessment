@@ -1,0 +1,23 @@
+.feedback-container {
+    background-color: #242526;
+    text-align: left;
+    width: 96%;
+   
+    padding: 20px 5px 20px 20px;;
+    border-radius: 8px;
+  }
+  
+  .feedback-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .feedback-list {
+    max-height: 263px;
+    overflow-y: auto;
+  }
+
+  @media only screen and (max-width: 768px){
+    .feedback-container {
+        margin-top: 10px;
+    }
+}

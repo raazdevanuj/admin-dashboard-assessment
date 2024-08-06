@@ -1,0 +1,89 @@
+.table-data{
+    display: flex
+}
+.recent-orders {
+    text-align: left;
+    width: 96%;
+    background-color: #242526;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.recent-orders h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+thead th {
+    padding: 10px;
+}
+thead th:nth-child(1){
+    text-align: left;
+
+}
+thead th:nth-child(4){
+    text-align: center;
+
+}
+
+
+tbody tr {
+    border-bottom: 1px solid #3a3b3c;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tbody td.customer {
+    display: flex;
+    align-items: center;
+}
+
+tbody td.customer img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+tbody .status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status.delivered {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    height: 20px;
+    justify-content: center;
+    background-color: #145044;
+    color: #fff;
+}
+
+.status.pending {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    height: 20px;
+    justify-content: center;
+    background-color: #ffc107;
+    color: #000;
+}
+
+.status.cancelled {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;    
+    justify-content: center;
+    height: 20px;
+    background-color: #dc3545;
+    color: #fff;
+}

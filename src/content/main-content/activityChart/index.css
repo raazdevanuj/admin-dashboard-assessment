@@ -1,0 +1,37 @@
+.active-header{
+    background-color: #242526;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    width: 96%;
+  }
+  
+  .weekly-label {
+    color: gray;
+    font-size: 1rem;
+    margin-top: -20px;
+  }
+  .dropdown-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #3a3a3a;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .dropdown-icon {
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .weekly-Activity{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .label{
+    display: flex;
+    justify-content: space-between;
+  }

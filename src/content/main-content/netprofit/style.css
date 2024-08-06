@@ -1,0 +1,63 @@
+.container-net {
+    display: flex;
+    width: 96%;
+    align-items: center;
+    background-color: #242526;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 10px 0;
+  }
+  
+  .netProfitSection {
+    margin-right: 50px;
+  }
+  
+  .title {
+    padding-bottom: 40px;
+    font-size: 18px;
+    color: #9ca3af;
+  }
+  
+  .netProfit {
+    margin: 0;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .growth {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .growth.positive {
+    color: green;
+  }
+  
+  .growth.negative {
+    color: red;
+  }
+  
+  .progressSection {
+    text-align: center;
+    width: 130px; 
+    height: 130px; 
+  }
+  .CircularProgressbar , .CircularProgressbar-path {
+    stroke-width: 10; /* Adjust the thickness of the line */
+  }
+  .goalText {
+    line-height: normal;
+    margin: -65px 0 0 0;
+
+    font-size: 14px;
+  }
+  
+  .note {
+    line-height: 1;
+    margin: 32px 0 0 0;
+    font-size: 10px;
+    color: #9ca3af;
+  }
+  
