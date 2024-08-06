@@ -1,5 +1,6 @@
 import './style.css';
 import StatCard from './statCard';
+import { Col, Row } from 'antd';
 
 const StatContainer = () => {
   const stats = [
@@ -35,9 +36,13 @@ const StatContainer = () => {
 
   return (
       <div className="stats-container">
+         <Row>
         {stats.map((stat, index) => (
+           <Col xs={12} sm={12} md={12} lg={6} xl={6} span={6}>
           <StatCard key={index} stat={stat} />
+          </Col>
         ))}
+        </Row>
       </div>
   );
 }

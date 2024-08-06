@@ -10,6 +10,12 @@ const MainContent = ()=> {
     return (
         <div className='container' id="id-container">
         <Row>
+            <Col>
+            <div className='dashboard'>Dashboard</div>
+            </Col>
+       
+        </Row>
+        <Row>
             <Col xs={24} sm={24} md={24} lg={16} xl={16}>
             <StatContainer/>
             </Col>
